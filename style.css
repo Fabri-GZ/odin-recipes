@@ -1,0 +1,51 @@
+body {
+    font-family: "Times New Roman", 'Courier New', Courier, monospace;
+    background-color: #ffc497;
+}
+
+a {
+    color: black;
+    font-size: 28px;
+    align-self: flex-end;
+    position: relative;
+    font-weight: 800;
+    top: -200px;
+    left: 360px;
+  }
+
+h1 {
+    font-family: monospace;
+    font-size: 48px;
+    font-weight: 800;
+  }
+#image {
+    width: 400px;
+    height: 267px;
+  }
+
+  #square {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    width: 350px;
+    height: 125px;
+    top: 120px;
+    left: 500px;
+  }
+  
+  #container {
+    position: relative;    
+  }
+  
+  #hover:hover {
+    color: powderblue;
+    text-shadow: 0 0 5px whitesmoke;
+  }
+
+  .paragraph {
+    display: flex;
+  }
+  
+  .empanadas {
+    top: -185px;
+  }
